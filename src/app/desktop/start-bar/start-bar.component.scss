@@ -1,0 +1,53 @@
+.start-bar{
+  position: absolute;
+  bottom: 0;
+  padding: 2px;
+  background-color: #c2c6ca;
+  border-top: 2px solid #e0e2e4;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+}
+
+.start-bar button{
+  display: block;
+  background-color: #c2c6ca;
+  border-top: 2px solid #e0e2e4;
+  border-left: 2px solid #e0e2e4;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  margin-right: 2px;
+  font-weight: bold;
+}
+
+.start-button button{
+  margin-right: 3px;
+}
+
+.start-bar button:focus{
+  background-color: #c2c6ca;
+  border-bottom: 2px solid #e0e2e4;
+  border-right: 2px solid #e0e2e4;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.ver-line{
+  border-left: 1px solid #e0e2e4;
+  border-right: 1px solid #000;
+  margin-right: 3px;
+}
+
+.ver-short-line{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-left: 2px solid #e0e2e4;
+  border-right: 2px solid #000;
+  margin-right: 5px;
+}
+
+.one-small-icon{
+  margin-top: 2px;
+  margin-right: 7px;
+}
