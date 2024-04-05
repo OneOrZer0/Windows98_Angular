@@ -21,7 +21,7 @@
 }
 
 .one-option img{
-  width: 50px;
+  width: 45px;
   padding: 5px;
   text-align: center;
   margin-right: 5px;
@@ -29,4 +29,44 @@
 
 .small-icon{
 
+}
+
+.one-option-icon{
+  display: inline-block;
+}
+
+.one-option-text{
+  display: inline-block;
+  text-align: center;
+  margin-top: 11px;
+}
+
+.one-small-icon{
+  display: inline-block;
+  text-align: right;
+  width: auto;
+}
+
+.noPadd{
+  padding: 0px;
+}
+
+.noMarg{
+  margin: 0px;
+}
+
+.hor-bar-padd{
+  padding: 0px 3px 0px 3px;
+}
+
+.hor-bar{
+  width: 100%;
+  border-top: 2px solid #9e9e9e;
+  border-bottom: 2px solid #f5f5f6;
+}
+
+.one-option-sel:hover{
+  background-color: #0000aa;
+  color: #f5f5f6;
+  cursor: pointer;
 }

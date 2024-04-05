@@ -1,7 +1,8 @@
-<app-menu-start></app-menu-start>
+
+<app-menu-start *ngIf="isVisible"></app-menu-start>
 <div class="start-bar">
   <div class="start-button">
-    <button type="button"><img width="20" src="../../../assets/startBarIcons/windows98.png" alt="">Start</button>
+    <button (click)="switchVis()" type="button"><img width="20" src="../../../assets/startBarIcons/windows98.png" alt="">Start</button>
   </div>
 
   <div class="ver-line"></div>

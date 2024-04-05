@@ -1,0 +1,53 @@
+.options-box{
+  color: #000;
+  font-size: 12px;
+}
+
+.option-pos{
+  position: absolute;
+  bottom: 0;
+  left: 230px;
+  bottom: 410px;
+  background-color: #c2c6ca;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  border-top: 2px solid #f5f5f6;
+  border-left: 2px solid #f5f5f6;
+  width: 180px;
+  padding: 3px;
+}
+
+.one-bar{
+  padding: 2px;
+  display: block;
+}
+
+.option-icon{
+  text-align: left;
+}
+
+.option-text{
+  text-align: left;
+}
+
+.option-char{
+  text-align: right;
+}
+
+.one-bar img{
+  width: 20px;
+}
+
+.one-bar:hover{
+  background-color: #0000aa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.noPadd{
+  padding: 0px;
+}
+
+.noMarg{
+  margin: 0px;
+}
